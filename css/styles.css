@@ -343,11 +343,9 @@ img {
   justify-content: center;
 }
 
-.social-media-link:hover{
-  background-color: #404bbf;   
-}
-.social-media-link:focus{
-  background-color: #404bbf;   
+.social-media-link:is(:hover, :focus) 
+{
+background-color: #404bbf;    
 }
 
 .social-icon {
